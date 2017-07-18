@@ -112,6 +112,9 @@ prints = {
 
     # nim
     'echo': print,
+
+    # pike
+    'write': printn,
 }
 
 
