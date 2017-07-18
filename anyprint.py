@@ -113,8 +113,12 @@ prints = {
     # nim
     'echo': print,
 
+    # Pascal
+    'writeln': print,
+
     # pike
-    'write': printn,
+    'write': lambda x: print(x, end=''),
+    'writeln': print,
 }
 
 
