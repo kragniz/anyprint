@@ -13,7 +13,7 @@ Simply import this module:
 import anyprint
 ```
 
-And start printing rubbish:
+Which makes the following valid python:
 
 ```python
 printf("printf %d\n", 10);
@@ -31,5 +31,15 @@ System.out.printf("java stuff\n");
 Ada.Text_IO.Put_Line("Ada is cool")
 ```
 
-
 Anyprint supports a growing number of languages, and welcomes more!
+
+Testimonials
+------------
+
+Anyprint has many glowing reviews from its many satisfied users:
+
+>"omg pls"
+
+>"what is wrong with you"
+
+>"That's stupid and not useful."
