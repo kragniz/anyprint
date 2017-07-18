@@ -45,3 +45,5 @@ Anyprint has many glowing reviews from its many satisfied users:
 >"That's stupid and not useful."
 
 >"Please add my testimonial: \"very accurate testimonials\"."
+
+>"kragniz, please stop writing questionable python metamodules :v"
