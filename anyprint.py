@@ -119,6 +119,12 @@ prints = {
     # pike
     'write': lambda x: print(x, end=''),
     'writeln': print,
+    
+    # Elixir
+    'IO': {
+        'puts': print,
+        'write': lambda x: print(x, end=''),
+    },
 }
 
 
