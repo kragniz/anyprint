@@ -47,3 +47,9 @@ Anyprint has many glowing reviews from its many satisfied users:
 >"Please add my testimonial: \"very accurate testimonials\"."
 
 >"kragniz, please stop writing questionable python metamodules :v"
+
+>"can I have a testimonial?"
+
+>"pls add my testimonial: no memes guaranteed."
+
+>"The Testimonials section cracked me up."
