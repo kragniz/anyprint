@@ -132,10 +132,10 @@ def make_module(name, members):
     m = types.ModuleType(name)
     m.__name__ = name
     for k, v in members.items():
-        if callable(v):
-            m.__dict__[k] = v
-        elif type(v) is dict:
+        if type(v) is dict:
             m.__dict__[k] = make_module(k, v)
+        else:
+            m.__dict__[k] = v
     return m
 
 
