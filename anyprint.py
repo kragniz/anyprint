@@ -125,6 +125,12 @@ prints = {
         'puts': print,
         'write': lambda x: print(x, end=''),
     },
+
+    # Objective-C
+    'NSLog': lambda *args: print(args[0].replace('%@', '%s') % args[1:]),
+
+    # Ruby
+    'p': lambda *args: print(*(repr(a) for a in args), sep='\n'),
 }
 
 
