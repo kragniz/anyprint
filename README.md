@@ -26,9 +26,15 @@ Print["Hello from Mathematica!"]
 
 console.log("yes");
 
+io.write("lua land")
+
 System.out.printf("java stuff\n");
 
+System.Console.WriteLine("C# looks awkard");
+
 Ada.Text_IO.Put_Line("Ada is cool")
+
+IO.puts("elixir")
 ```
 
 Anyprint supports a growing number of languages, and welcomes more!
