@@ -40,7 +40,7 @@ prints = {
             'WriteLine': print,
         },
     },
-    
+
     # C like
     'puts': print,
     'printf': printf,
@@ -119,12 +119,17 @@ prints = {
     # pike
     'write': lambda x: print(x, end=''),
     'writeln': print,
-    
+
     # Elixir
     'IO': {
         'puts': print,
         'write': lambda x: print(x, end=''),
     },
+
+    # Unity3D in C#
+    'Debug': {
+        'Log': print,
+    }
 }
 
 
