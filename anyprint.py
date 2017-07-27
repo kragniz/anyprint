@@ -41,6 +41,9 @@ prints = {
             'WriteLine': print,
         },
     },
+    
+    # kotlin
+    'println': print,
 
     # C like
     'puts': print,
