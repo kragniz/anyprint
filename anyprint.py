@@ -46,8 +46,8 @@ prints = {
     'println': print,
 
     # C like
-    'puts': print,
     'printf': printf,
+    'puts': lambda *args: print(*args, sep='\n'),     # shared with Ruby
 
     # actionscript
     'trace': print,
@@ -139,7 +139,7 @@ prints = {
     'NSLog': lambda *args: print(args[0].replace('%@', '%s') % args[1:]),
 
     # Ruby
-    'p': lambda *args: print(*(repr(a) for a in args), sep='\n'),
+    'p': lambda *args: (print(*(repr(a) for a in args), sep='\n') and False) or list(args),
 }
 
 
