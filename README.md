@@ -35,6 +35,8 @@ System.Console.WriteLine("C# looks awkard");
 Ada.Text_IO.Put_Line("Ada is cool")
 
 IO.puts("elixir")
+
+putStrLn("Pure lazy Haskell!")
 ```
 
 Anyprint supports a growing number of languages, and welcomes more!

@@ -140,6 +140,10 @@ prints = {
 
     # Ruby
     'p': lambda *args: (print(*(repr(a) for a in args), sep='\n') and False) or list(args),
+
+    # Haskell
+    'putStrLn': print,
+    'putStr': printn,
 }
 
 
